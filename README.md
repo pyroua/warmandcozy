@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Schoonmaak Warm and Cozy — warmandcozy.club
 
-## Getting Started
+Professional cleaning company website for Veghel, Netherlands.
 
-First, run the development server:
+## Stack
+
+- **Next.js 16** (App Router) + TypeScript
+- **Tailwind CSS 4**
+- **next-intl** — i18n: NL (default), EN, FR
+- **Cloudflare Pages** — hosting
+
+## Local Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# → http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Production Deploy (Cloudflare Pages)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Setup (одноразово)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Зайти в [Cloudflare Pages Dashboard](https://dash.cloudflare.com/?to=/:account/pages)
+2. `Create application` → `Pages` → `Connect to Git`
+3. Выбрать репозиторий `pyroua/warmandcozy`
+4. Настройки сборки:
+   - **Framework preset**: Next.js
+   - **Build command**: `npx @cloudflare/next-on-pages`
+   - **Output directory**: `.vercel/output/static`
+   - **Node version**: 20
+5. Сохранить и задеплоить
 
-## Learn More
+### Привязка домена
 
-To learn more about Next.js, take a look at the following resources:
+1. После деплоя → `Custom domains` → `Add custom domain`
+2. Ввести `warmandcozy.club`
+3. DNS обновится автоматически (домен уже в Cloudflare)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Environment Variables
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Не требуются для Phase 1.
 
-## Deploy on Vercel
+## Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+src/
+├── app/[locale]/         — Locale-based routing (NL/EN/FR)
+│   ├── layout.tsx        — Root layout with SEO metadata
+│   └── page.tsx          — Main page
+├── components/
+│   ├── Header.tsx        — Fixed header with nav + lang switcher + WhatsApp
+│   ├── Hero.tsx          — Hero section with CTA
+│   ├── Services.tsx      — Residential + Commercial services
+│   ├── BeforeAfter.tsx   — Photo gallery (voor & na)
+│   ├── Region.tsx        — Map + contact info
+│   └── Footer.tsx        — Footer with social links
+├── i18n/
+│   ├── routing.ts        — Locale definitions
+│   └── request.ts        — next-intl server config
+└── middleware.ts          — Locale redirect middleware
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+messages/
+├── nl.json               — Dutch (primary)
+├── en.json               — English
+└── fr.json               — French
+```
+
+## Content Management (Phase 2)
+
+В будущем: подключение staff-api как headless CMS.
+Новый эндпоинт `/api/pages/warmandcozy` возвращает JSON с текстами.
+Next.js рендерит через ISR (Incremental Static Regeneration).
+
+## Contact
+
+- 📱 WhatsApp: https://api.whatsapp.com/send?phone=31617615757
+- 📧 info@warmandcozy.club
+- 📍 De Omgang 17, 5463KZ Veghel, Netherlands
+- 🏢 KVK: 97095737 | BTW: NL005248356B86
