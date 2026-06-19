@@ -62,13 +62,13 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link href={`/${locale === 'nl' ? '' : locale}`} className="flex items-center gap-3">
-            <div className="relative w-10 h-10 md:w-12 md:h-12 flex-shrink-0">
+          <Link href={`/${locale}/`} className="flex items-center gap-3">
+            <div className="relative w-10 h-10 md:w-12 md:h-12 flex-shrink-0 rounded-full overflow-hidden bg-white">
               <Image
                 src="/images/logo.png"
                 alt="Warm and Cozy Logo"
                 fill
-                className="object-contain"
+                className="object-contain p-0.5"
                 priority
               />
             </div>
