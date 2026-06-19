@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "services": "Diensten",
+    "results": "Resultaten",
+    "region": "Regio",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Gevestigd in Veghel · Actief in 25 km regio",
+    "title": "Professionele schoonmaak voor uw",
+    "titleHighlight": "huis & kantoor",
+    "subtitle": "Grondige dieptereiniging van woningen en betrouwbare periodieke schoonmaak van kantoren. Schoon, snel en met garantie.",
+    "ctaWhatsapp": "Direct aanvragen via WhatsApp",
+    "ctaQuote": "Vraag vrijblijvende offerte aan",
+    "trustBadge1": "Geen voorrijkosten",
+    "trustBadge2": "Garantie op kwaliteit",
+    "trustBadge3": "Eigen apparatuur"
+  },
+  "services": {
+    "title": "Onze Diensten",
+    "subtitle": "Professionele schoonmaak op maat — voor particulieren en bedrijven",
+    "residential": {
+      "tag": "Voor particulieren",
+      "title": "Dieptereiniging van Huizen",
+      "description": "Voor particulieren die dromen van een perfect schoon huis zonder moeite.",
+      "items": [
+        "Grondige reiniging van badkamer en toilet (ontkalken van tegels en kranen)",
+        "Keuken vetvrij maken: oven, afzuigkap en kastjes",
+        "Stofvrij maken van alle muren, plafonds, plinten en lampen",
+        "Grondig stofzuigen en dieptereiniging van harde vloeren met stoom"
+      ],
+      "cta": "Direct aanvragen via WhatsApp"
+    },
+    "commercial": {
+      "tag": "Voor bedrijven",
+      "title": "Kantoorschoonmaak op Contractbasis",
+      "description": "Flexibele en betrouwbare schoonmaakservice voor uw werkplek.",
+      "features": [
+        {
+          "title": "Flexibele planning",
+          "desc": "Wij werken buiten kantoortijden (vroeg in de ochtend, 's avonds of in het weekend) zodat uw medewerkers ongestoord kunnen doorwerken."
+        },
+        {
+          "title": "Continuïteitsgarantie",
+          "desc": "Bij ziekte of verlof zorgen wij direct voor vervanging. Uw kantoor wordt áltijd schoongemaakt."
+        },
+        {
+          "title": "Zakelijke afhandeling",
+          "desc": "Professionele samenwerking op basis van een helder contract. Facturatie achteraf met btw-specificatie."
+        },
+        {
+          "title": "Alles-in-één service",
+          "desc": "Wij nemen al onze eigen professionele apparatuur en hoogwaardige reinigingsmiddelen mee. U hoeft nergens naar om te kijken."
+        }
+      ],
+      "noCallout": "Geen voorrijkosten binnen een straal van 15 km rondom Veghel!",
+      "cta": "Vraag een vrijblijvende offerte aan"
+    }
+  },
+  "results": {
+    "title": "Voor & Na",
+    "subtitle": "Bekijk ons werk. Echte resultaten van tevreden klanten.",
+    "before": "VOOR",
+    "after": "NA",
+    "caption1": "Badkraan dieptereiniging",
+    "caption2": "Glazen douchecabine",
+    "caption3": "Douchewand ontkalking"
+  },
+  "region": {
+    "title": "Ons Werkgebied",
+    "subtitle": "Gevestigd in Veghel, actief in een straal van 25 km",
+    "description": "Wij bedienen Veghel en de gehele regio, waaronder Eindhoven, 's-Hertogenbosch, Uden, Oss en Helmond. Geen voorrijkosten binnen 15 km rondom Veghel.",
+    "cities": "Veghel · Eindhoven · Den Bosch · Uden · Oss · Helmond",
+    "contactTitle": "Neem contact op",
+    "phone": "Telefoon / WhatsApp",
+    "email": "E-mail",
+    "address": "Adres",
+    "kvk": "KVK-nummer",
+    "btw": "BTW-nummer",
+    "whatsappCta": "Stuur ons een bericht"
+  },
+  "footer": {
+    "tagline": "Professionele schoonmaak in Veghel en omgeving",
+    "rights": "Alle rechten voorbehouden",
+    "links": {
+      "privacy": "Privacybeleid",
+      "terms": "Algemene voorwaarden"
+    }
+  }
+}

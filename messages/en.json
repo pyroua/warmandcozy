@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "services": "Services",
+    "results": "Results",
+    "region": "Region",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Based in Veghel · Serving 25 km region",
+    "title": "Professional cleaning for your",
+    "titleHighlight": "home & office",
+    "subtitle": "Deep cleaning of homes and reliable periodic office cleaning. Clean, fast and with a guarantee.",
+    "ctaWhatsapp": "Contact us via WhatsApp",
+    "ctaQuote": "Request a free quote",
+    "trustBadge1": "No call-out charges",
+    "trustBadge2": "Quality guarantee",
+    "trustBadge3": "Own equipment"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Professional cleaning tailored to your needs — for individuals and businesses",
+    "residential": {
+      "tag": "For individuals",
+      "title": "Deep Cleaning of Homes",
+      "description": "For individuals who dream of a perfectly clean home without effort.",
+      "items": [
+        "Thorough cleaning of bathroom and toilet (descaling tiles and taps)",
+        "Kitchen degreasing: oven, extractor hood and cabinets",
+        "Dust removal from all walls, ceilings, skirting boards and lamps",
+        "Thorough vacuuming and deep cleaning of hard floors with steam"
+      ],
+      "cta": "Contact us via WhatsApp"
+    },
+    "commercial": {
+      "tag": "For businesses",
+      "title": "Office Cleaning on Contract Basis",
+      "description": "Flexible and reliable cleaning service for your workplace.",
+      "features": [
+        {
+          "title": "Flexible scheduling",
+          "desc": "We work outside office hours (early morning, evenings or weekends) so your employees can work undisturbed."
+        },
+        {
+          "title": "Continuity guarantee",
+          "desc": "In case of illness or leave, we immediately arrange a replacement. Your office will always be cleaned."
+        },
+        {
+          "title": "Professional handling",
+          "desc": "Professional cooperation based on a clear contract. Invoicing afterwards with VAT specification."
+        },
+        {
+          "title": "All-in-one service",
+          "desc": "We bring all our own professional equipment and high-quality cleaning products. You don't have to worry about anything."
+        }
+      ],
+      "noCallout": "No call-out charges within 15 km of Veghel!",
+      "cta": "Request a free quote"
+    }
+  },
+  "results": {
+    "title": "Before & After",
+    "subtitle": "See our work. Real results from satisfied customers.",
+    "before": "BEFORE",
+    "after": "AFTER",
+    "caption1": "Bathroom tap deep cleaning",
+    "caption2": "Glass shower cabin",
+    "caption3": "Shower wall descaling"
+  },
+  "region": {
+    "title": "Our Service Area",
+    "subtitle": "Based in Veghel, active within 25 km radius",
+    "description": "We serve Veghel and the entire region, including Eindhoven, 's-Hertogenbosch, Uden, Oss and Helmond. No call-out charges within 15 km of Veghel.",
+    "cities": "Veghel · Eindhoven · Den Bosch · Uden · Oss · Helmond",
+    "contactTitle": "Get in touch",
+    "phone": "Phone / WhatsApp",
+    "email": "Email",
+    "address": "Address",
+    "kvk": "Chamber of Commerce",
+    "btw": "VAT number",
+    "whatsappCta": "Send us a message"
+  },
+  "footer": {
+    "tagline": "Professional cleaning in Veghel and surroundings",
+    "rights": "All rights reserved",
+    "links": {
+      "privacy": "Privacy policy",
+      "terms": "Terms and conditions"
+    }
+  }
+}

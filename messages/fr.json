@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "services": "Services",
+    "results": "Résultats",
+    "region": "Région",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Basé à Veghel · Rayon de service 25 km",
+    "title": "Nettoyage professionnel pour votre",
+    "titleHighlight": "maison & bureau",
+    "subtitle": "Nettoyage en profondeur des maisons et entretien périodique fiable des bureaux. Propre, rapide et avec garantie.",
+    "ctaWhatsapp": "Nous contacter via WhatsApp",
+    "ctaQuote": "Demander un devis gratuit",
+    "trustBadge1": "Pas de frais de déplacement",
+    "trustBadge2": "Garantie de qualité",
+    "trustBadge3": "Notre propre matériel"
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Nettoyage professionnel sur mesure — pour particuliers et entreprises",
+    "residential": {
+      "tag": "Pour particuliers",
+      "title": "Nettoyage en Profondeur",
+      "description": "Pour les particuliers qui rêvent d'une maison parfaitement propre sans effort.",
+      "items": [
+        "Nettoyage approfondi de la salle de bain et des toilettes (détartrage des carreaux et robinets)",
+        "Dégraissage cuisine: four, hotte aspirante et armoires",
+        "Dépoussiérage de tous les murs, plafonds, plinthes et lampes",
+        "Aspiration complète et nettoyage en profondeur des sols durs à la vapeur"
+      ],
+      "cta": "Nous contacter via WhatsApp"
+    },
+    "commercial": {
+      "tag": "Pour entreprises",
+      "title": "Nettoyage de Bureau sur Contrat",
+      "description": "Service de nettoyage flexible et fiable pour votre lieu de travail.",
+      "features": [
+        {
+          "title": "Planning flexible",
+          "desc": "Nous travaillons en dehors des heures de bureau (tôt le matin, le soir ou le week-end) pour que vos employés puissent travailler sans interruption."
+        },
+        {
+          "title": "Garantie de continuité",
+          "desc": "En cas de maladie ou de congé, nous organisons immédiatement un remplacement. Votre bureau sera toujours nettoyé."
+        },
+        {
+          "title": "Traitement professionnel",
+          "desc": "Coopération professionnelle basée sur un contrat clair. Facturation a posteriori avec spécification TVA."
+        },
+        {
+          "title": "Service tout-en-un",
+          "desc": "Nous apportons tout notre équipement professionnel et nos produits de nettoyage de haute qualité. Vous n'avez à vous soucier de rien."
+        }
+      ],
+      "noCallout": "Pas de frais de déplacement dans un rayon de 15 km autour de Veghel!",
+      "cta": "Demander un devis gratuit"
+    }
+  },
+  "results": {
+    "title": "Avant & Après",
+    "subtitle": "Voyez notre travail. De vrais résultats de clients satisfaits.",
+    "before": "AVANT",
+    "after": "APRÈS",
+    "caption1": "Nettoyage robinet de salle de bain",
+    "caption2": "Cabine de douche en verre",
+    "caption3": "Détartrage paroi de douche"
+  },
+  "region": {
+    "title": "Notre Zone de Service",
+    "subtitle": "Basé à Veghel, actif dans un rayon de 25 km",
+    "description": "Nous desservons Veghel et toute la région, notamment Eindhoven, 's-Hertogenbosch, Uden, Oss et Helmond. Pas de frais de déplacement dans un rayon de 15 km autour de Veghel.",
+    "cities": "Veghel · Eindhoven · Den Bosch · Uden · Oss · Helmond",
+    "contactTitle": "Prendre contact",
+    "phone": "Téléphone / WhatsApp",
+    "email": "E-mail",
+    "address": "Adresse",
+    "kvk": "Chambre de commerce",
+    "btw": "Numéro TVA",
+    "whatsappCta": "Envoyez-nous un message"
+  },
+  "footer": {
+    "tagline": "Nettoyage professionnel à Veghel et environs",
+    "rights": "Tous droits réservés",
+    "links": {
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions générales"
+    }
+  }
+}
