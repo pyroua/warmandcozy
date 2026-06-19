@@ -37,9 +37,9 @@ export default function Header() {
   ];
 
   const handleLocaleChange = (newLocale: string) => {
+    // Static export: all locales use /locale/ prefix (e.g. /nl/, /en/, /fr/)
     const currentPath = pathname.replace(/^\/(nl|en|fr)/, '') || '/';
-    const newPath = newLocale === 'nl' ? currentPath : `/${newLocale}${currentPath}`;
-    router.push(newPath);
+    router.push(`/${newLocale}${currentPath}`);
     setIsOpen(false);
   };
 
