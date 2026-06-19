@@ -5,6 +5,9 @@ import BeforeAfter from '@/components/BeforeAfter';
 import Region from '@/components/Region';
 import Footer from '@/components/Footer';
 
+// Force static rendering — no dynamic server functions
+export const dynamic = 'force-static';
+
 export function generateStaticParams() {
   return [{ locale: 'nl' }, { locale: 'en' }, { locale: 'fr' }];
 }

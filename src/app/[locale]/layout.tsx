@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, getTranslations } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 import "../globals.css";
 
 const nunito = Nunito({
@@ -17,7 +17,6 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'hero' });
 
   const descriptions: Record<string, string> = {
     nl: 'Professionele schoonmaakservice in Veghel en omgeving. Dieptereiniging woningen & kantoorschoonmaak op contract. Bel +31 617 615 757.',
@@ -47,7 +46,7 @@ export async function generateMetadata({
     alternates: {
       canonical: `https://warmandcozy.club`,
       languages: {
-        'nl': 'https://warmandcozy.club',
+        'nl': 'https://warmandcozy.club/nl',
         'en': 'https://warmandcozy.club/en',
         'fr': 'https://warmandcozy.club/fr',
       },
@@ -68,7 +67,8 @@ export default async function LocaleLayout({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  const messages = await getMessages();
+  // Load messages directly from file — no headers() call (compatible with static export)
+  const messages = (await import(`../../../messages/${locale}.json`)).default;
 
   return (
     <html lang={locale} className={nunito.variable}>
@@ -115,7 +115,7 @@ export default async function LocaleLayout({
         />
       </head>
       <body className="antialiased">
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
         </NextIntlClientProvider>
       </body>
