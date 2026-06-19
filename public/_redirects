@@ -1,0 +1,2 @@
+# Redirect www to non-www (canonical domain)
+https://www.warmandcozy.club/* https://warmandcozy.club/:splat 301
