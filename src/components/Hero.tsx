@@ -8,7 +8,6 @@ const WHATSAPP_URL = 'https://api.whatsapp.com/send?phone=31617615757';
 
 export default function Hero() {
   const t = useTranslations('hero');
-  const heroRef = useRef<HTMLDivElement>(null);
 
   return (
     <section

@@ -9,7 +9,7 @@ import Footer from '@/components/Footer';
 export const dynamic = 'force-static';
 
 export function generateStaticParams() {
-  return [{ locale: 'nl' }, { locale: 'en' }, { locale: 'fr' }];
+  return [{ locale: 'nl' }, { locale: 'en' }, { locale: 'fr' }, { locale: 'de' }];
 }
 
 export default function HomePage() {
