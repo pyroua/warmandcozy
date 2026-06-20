@@ -109,7 +109,7 @@ export default function Region() {
                   icon={MapPin}
                   label={t('address')}
                   value="De Omgang 17, 5463KZ Veghel, Netherlands"
-                  href="https://maps.google.com/?q=De+Omgang+17,+5463KZ+Veghel"
+                  href="https://share.google/9H8851OIf54uwcKYv"
                 />
                 {/* KVK */}
                 <ContactRow

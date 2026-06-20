@@ -22,6 +22,7 @@ export async function generateMetadata({
     nl: 'Professionele schoonmaakservice in Veghel en omgeving. Dieptereiniging woningen & kantoorschoonmaak op contract. Bel +31 617 615 757.',
     en: 'Professional cleaning service in Veghel and surroundings. Deep cleaning homes & office cleaning on contract. Call +31 617 615 757.',
     fr: 'Service de nettoyage professionnel à Veghel et environs. Nettoyage en profondeur et entretien bureaux. Appelez le +31 617 615 757.',
+    de: 'Professioneller Reinigungsservice in Veghel und Umgebung. Tiefenreinigung Wohnungen & Büroreinigung auf Vertragsbasis. Anrufen +31 617 615 757.',
   };
 
   return {
@@ -49,6 +50,7 @@ export async function generateMetadata({
         'nl': 'https://warmandcozy.club/nl',
         'en': 'https://warmandcozy.club/en',
         'fr': 'https://warmandcozy.club/fr',
+        'de': 'https://warmandcozy.club/de',
       },
     },
     robots: {

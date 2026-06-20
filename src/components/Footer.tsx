@@ -108,9 +108,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li>
                 <a
-                  href={WHATSAPP_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="tel:+31617615757"
                   className="flex items-center gap-2 text-sm font-500 transition-colors hover:text-white"
                   style={{ color: 'rgba(255,255,255,0.65)' }}
                 >
@@ -128,9 +126,17 @@ export default function Footer() {
                   info@warmandcozy.club
                 </a>
               </li>
-              <li className="text-sm font-500" style={{ color: 'rgba(255,255,255,0.5)' }}>
-                De Omgang 17<br />
-                5463KZ Veghel, NL
+              <li>
+                <a
+                  href="https://share.google/9H8851OIf54uwcKYv"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm font-500 transition-colors hover:text-white"
+                  style={{ color: 'rgba(255,255,255,0.5)' }}
+                >
+                  De Omgang 17<br />
+                  5463KZ Veghel, NL
+                </a>
               </li>
             </ul>
           </div>

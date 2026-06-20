@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "services": "Leistungen",
+    "results": "Ergebnisse",
+    "region": "Region",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "badge": "Standort Veghel · Einsatzgebiet 25 km",
+    "title": "Professionelle Reinigung für Ihr",
+    "titleHighlight": "Zuhause & Büro",
+    "subtitle": "Gründliche Tiefenreinigung von Wohnungen und zuverlässige regelmäßige Büroreinigung. Sauber, schnell und mit Garantie.",
+    "ctaWhatsapp": "Direkt per WhatsApp anfragen",
+    "ctaQuote": "Kostenloses Angebot anfordern",
+    "trustBadge1": "Keine Anfahrtskosten"
+  },
+  "services": {
+    "title": "Unsere Leistungen",
+    "subtitle": "Professionelle Reinigung nach Maß — für Privatpersonen und Unternehmen",
+    "residential": {
+      "tag": "Für Privatpersonen",
+      "title": "Tiefenreinigung von Häusern",
+      "description": "Für Privatpersonen, die von einem makellos sauberen Zuhause ohne Aufwand träumen.",
+      "items": [
+        "Gründliche Reinigung von Bad und WC (Entkalkung von Fliesen und Armaturen)",
+        "Küche entfetten: Ofen, Dunstabzugshaube und Schränke",
+        "Entstauben aller Wände, Decken, Sockelleisten und Lampen",
+        "Gründliches Staubsaugen und Tiefenreinigung von Hartböden mit Dampf"
+      ],
+      "cta": "Direkt per WhatsApp anfragen"
+    },
+    "commercial": {
+      "tag": "Für Unternehmen",
+      "title": "Büroreinigung auf Vertragsbasis",
+      "description": "Flexibler und zuverlässiger Reinigungsservice für Ihren Arbeitsplatz.",
+      "features": [
+        {
+          "title": "Flexible Planung",
+          "desc": "Wir arbeiten außerhalb der Bürozeiten (früh morgens, abends oder am Wochenende), damit Ihre Mitarbeiter ungestört arbeiten können."
+        },
+        {
+          "title": "Kontinuitätsgarantie",
+          "desc": "Bei Krankheit oder Urlaub sorgen wir sofort für Ersatz. Ihr Büro wird immer gereinigt."
+        },
+        {
+          "title": "Professionelle Abwicklung",
+          "desc": "Professionelle Zusammenarbeit auf Basis eines klaren Vertrags. Nachträgliche Rechnungsstellung mit MwSt.-Spezifikation."
+        },
+        {
+          "title": "Alles-in-einem-Service",
+          "desc": "Wir bringen unsere gesamte professionelle Ausrüstung und hochwertige Reinigungsmittel mit. Sie müssen sich um nichts kümmern."
+        }
+      ],
+      "noCallout": "Keine Anfahrtskosten im Umkreis von 15 km um Veghel!",
+      "cta": "Kostenloses Angebot anfordern"
+    }
+  },
+  "results": {
+    "title": "Vorher & Nachher",
+    "subtitle": "Sehen Sie unsere Arbeit. Echte Ergebnisse von zufriedenen Kunden.",
+    "before": "VORHER",
+    "after": "NACHHER",
+    "caption1": "Tiefenreinigung Badarmatur",
+    "caption2": "Glas-Duschkabine",
+    "caption3": "Entkalkung Duschtrennwand"
+  },
+  "region": {
+    "title": "Unser Einsatzgebiet",
+    "subtitle": "Standort Veghel, aktiv im Umkreis von 25 km",
+    "description": "Wir bedienen Veghel und die gesamte Region, einschließlich Eindhoven, 's-Hertogenbosch, Uden, Oss und Helmond. Keine Anfahrtskosten im Umkreis von 15 km um Veghel.",
+    "cities": "Veghel · Eindhoven · Den Bosch · Uden · Oss · Helmond",
+    "contactTitle": "Kontakt aufnehmen",
+    "phone": "Telefon / WhatsApp",
+    "email": "E-Mail",
+    "address": "Adresse",
+    "kvk": "Handelskammer",
+    "btw": "USt-IdNr.",
+    "whatsappCta": "Schreiben Sie uns"
+  },
+  "footer": {
+    "tagline": "Professionelle Reinigung in Veghel und Umgebung",
+    "rights": "Alle Rechte vorbehalten",
+    "links": {
+      "privacy": "Datenschutzerklärung",
+      "terms": "Allgemeine Geschäftsbedingungen"
+    }
+  }
+}

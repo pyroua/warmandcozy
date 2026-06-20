@@ -34,11 +34,12 @@ export default function Header() {
     { code: 'nl', label: 'NL' },
     { code: 'en', label: 'EN' },
     { code: 'fr', label: 'FR' },
+    { code: 'de', label: 'DE' },
   ];
 
   const handleLocaleChange = (newLocale: string) => {
-    // Static export: all locales use /locale/ prefix (e.g. /nl/, /en/, /fr/)
-    const currentPath = pathname.replace(/^\/(nl|en|fr)/, '') || '/';
+    // Static export: all locales use /locale/ prefix (e.g. /nl/, /en/, /fr/, /de/)
+    const currentPath = pathname.replace(/^\/(nl|en|fr|de)/, '') || '/';
     router.push(`/${newLocale}${currentPath}`);
     setIsOpen(false);
   };

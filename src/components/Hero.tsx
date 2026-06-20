@@ -2,8 +2,7 @@
 
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
-import { Phone, Shield, Truck, CheckCircle } from 'lucide-react';
-import { useEffect, useRef } from 'react';
+import { Truck } from 'lucide-react';
 
 const WHATSAPP_URL = 'https://api.whatsapp.com/send?phone=31617615757';
 
@@ -117,24 +116,17 @@ export default function Hero() {
 
           {/* Trust badges */}
           <div className="flex flex-wrap gap-4 animate-fade-in-up delay-400">
-            {[
-              { icon: Truck,       text: t('trustBadge1') },
-              { icon: Shield,      text: t('trustBadge2') },
-              { icon: CheckCircle, text: t('trustBadge3') },
-            ].map(({ icon: Icon, text }) => (
-              <div
-                key={text}
-                className="flex items-center gap-2 px-3 py-1.5 rounded-full text-sm font-600"
-                style={{
-                  background: 'rgba(255,255,255,0.12)',
-                  border: '1px solid rgba(255,255,255,0.25)',
-                  color: 'rgba(255,255,255,0.9)',
-                }}
-              >
-                <Icon size={14} className="text-green-300" />
-                {text}
-              </div>
-            ))}
+            <div
+              className="flex items-center gap-2 px-3 py-1.5 rounded-full text-sm font-600"
+              style={{
+                background: 'rgba(255,255,255,0.12)',
+                border: '1px solid rgba(255,255,255,0.25)',
+                color: 'rgba(255,255,255,0.9)',
+              }}
+            >
+              <Truck size={14} className="text-green-300" />
+              {t('trustBadge1')}
+            </div>
           </div>
         </div>
       </div>
