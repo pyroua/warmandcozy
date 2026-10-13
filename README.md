@@ -25,9 +25,9 @@ npm run dev
 2. `Create application` → `Pages` → `Connect to Git`
 3. Выбрать репозиторий `pyroua/warmandcozy`
 4. Настройки сборки:
-   - **Framework preset**: Next.js
-   - **Build command**: `npx @cloudflare/next-on-pages`
-   - **Output directory**: `.vercel/output/static`
+   - **Framework preset**: None
+   - **Build command**: `npm run build`
+   - **Output directory**: `out`
    - **Node version**: 20
 5. Сохранить и задеплоить
 

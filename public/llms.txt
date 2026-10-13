@@ -4,3 +4,6 @@
 ## Pagina's
 - [Nederlands](https://warmandcozy.club/nl/): hoofdpagina, diensten en contact
 - [English](https://warmandcozy.club/en/): main page, services and contact
+- [Français](https://warmandcozy.club/fr/): page principale, services et contact
+- [Deutsch](https://warmandcozy.club/de/): Hauptseite, Dienstleistungen und Kontakt
+
